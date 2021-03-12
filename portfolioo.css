@@ -1,0 +1,180 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+background-color:#F5F5F5;
+
+}
+
+header{
+  display:flex;
+  width:100%;
+  height:60px;
+  background-color:rgba(169,169,169,0.7);
+  position:fixed;
+  z-index:2
+}
+
+.title{
+margin:auto auto auto 20px;
+font-size:25px;
+font-family:serif;
+}
+
+.menu-group{
+padding-right:20px;
+}
+
+.menu-item{
+  list-style:none;
+  display:inline-block;
+  padding:20px;
+  float:right;
+  font-family:serif;
+  font-size:20px;
+  color:white;
+ }
+
+nav a:link,nav a:visited,nav a:hover{
+  color:white;
+  text-decoration:none;
+}
+
+nav a:active{
+  color:gray;
+}
+
+.about{
+  position:relative;
+  top:60px;
+  text-align:center;
+  padding-top:80px;
+}
+
+.about h1{
+  margin-bottom:5%;
+}
+
+.about img{
+font-size:10px;
+float:left;
+margin:20px 5% 0px 30%;
+z-index:1
+}
+
+.about p{
+  margin:100px 0px 0px 5%;
+text-align:left;
+line-height:30px;
+}
+
+.skills{
+  margin-top:15%;
+text-align:center;
+}
+
+i{
+  font-size:25px;
+font-family:"arial black";
+font-weight:bold;
+padding-bottom:20px;
+}
+
+
+.skill-item{
+width:30%;
+margin-top:5%;
+display:inline-block;
+text-align:top;
+}
+
+
+
+.works{
+  text-align:center;
+  margin-top:10%;
+}
+
+.pizza{
+  color:black;
+}
+
+
+.works a{
+  display:inline-block;
+  color:#555555;
+  text-decoration:none;
+  margin:5% 5% 0;
+}
+
+.works a:hover,works a:visited{
+  color:#555555;
+  text-decoration:none;
+}
+
+.works a:hover{
+  color:#FF9872;
+  position:relative;
+  top:3px;
+}
+
+
+.port img{
+border:1px solid;
+border-color:#999999;
+
+}
+
+
+
+.contact{
+  margin-top:10%;
+  text-align:center;
+}
+
+
+.contact p{
+margin-top:30px;
+margin-bottom:10px;
+}
+
+
+input{
+  width:500px;
+  height:30px;
+}
+
+textarea{
+width:500px;
+height:100px;
+}
+
+.botton{
+  text-align:center;
+  margin-bottom:50px;
+  margin-top:30px;
+}
+
+.contact-submit{
+width:200px;
+height:50px;
+}
+
+.contact-submit:active{
+position:relative;
+top:3px;
+}
+
+
+footer{
+  text-align:center;
+  background-color:rgba(230,230,250,0.7);
+  padding:15px 0;
+}
+
+footer p{
+  line-height:30px;
+  opacity:0.7;
+}
