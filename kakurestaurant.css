@@ -1,0 +1,140 @@
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.theme {
+ height:1000px;
+ background-image:url("https://cdn.pixabay.com/photo/2020/05/12/16/18/pizza-5163790_1280.jpg");
+ background-size:cover;
+}
+
+.theme h1{
+  position:relative;
+  top:50%;
+  text-align:right;
+  margin-right:8%;
+  font-size:90px;
+  color:white;
+  font-family:cursive;
+}
+
+.theme p{
+  position:relative;
+  top:60%;
+  text-align:right;
+  margin-right:18%;
+  font-size:25px;
+  color:white;
+  font-family:"UD Digi Kyokasho NP-B";
+}
+
+
+.menu{
+  height:1500px;
+  background-color:#121212;
+}
+
+.menu h1{
+  font-size:50px;
+  color:white;
+  text-align:center;
+  padding:5% 0;
+}
+
+.menu-group{
+  text-align:center;
+  width:100%;
+}
+
+.menu-item{
+  display:inline-block;
+  width:50%;
+  float:left;
+  padding:50px 0px;
+}
+
+.menu-item h2{
+  color:white;
+  font-size:30px;
+  font-family:"UD Digi Kyokasho NP-B";
+  margin-bottom:10px;
+}
+
+.menu-item p{
+  color:#DDDDDD;
+  font-size:20px;
+  font-family:"UD Digi Kyokasho NP-B";
+  width:50%;
+  margin:10px 0 0 25%;
+}
+
+
+.access{
+  padding:10% 20% 0 20%;
+  background-color:#121212;
+  height:500px;
+  color:#DDDDDD;
+  font-family:"UD Digi Kyokasho NP-B";
+}
+
+.access h3{
+  font-size:30px;
+  padding-bottom:20px;
+  text-align:center;
+}
+
+.access iframe{
+ float:left;
+ margin-top:5%;
+}
+
+.access p{
+  float:right;
+  font-size:20px;
+  margin-top:5%;
+  line-height:40px;
+  padding:5% 0;
+}
+
+footer{
+  background-color:#444444;
+  height:300px;
+  color:white;
+  font-family:"UD Digi Kyokasho NP-B";
+
+}
+
+.sns{
+  float:left;
+  margin-left:20%;
+}
+
+.sns h3{
+  padding:30px 0 20px 0;
+}
+
+
+.sns i{
+  color:white;
+  padding:0 0 30px 0;
+  margin:0 auto;
+}
+
+.time{
+  float:right;
+  padding:30px 20% 30px 0;
+}
+
+.time h3{
+padding-bottom:20px;
+}
+
+.time p{
+  line-height:30px;
+}
+
+.inc{
+  text-align:center;
+}
